@@ -1,0 +1,92 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(20,20,20);
+  margin: 0px;
+}
+
+h1,h2,h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  color: white;
+  display:inline-block;
+  margin: 0;
+}
+
+.tags {
+  width: 3vh;
+  height: 3vh;
+}
+
+#notice {
+  height: 5vh;
+  padding-left: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+#menu {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  color: white;
+  font-size: clamp(3rem, 8vw, 8rem);
+  display: block;
+  text-decoration: none;
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  transition: opacity 400ms ease;
+}
+
+#menu-items {
+  margin-left: clamp(4rem, 20vw, 48rem);
+  position: relative;
+  z-index: 2;
+}
+
+#menu-items:hover > .menu-item {
+  opacity: 0.3;
+}
+
+#menu-items:hover > .menu-item:hover {
+  opacity: 1;
+}
+
+/* .menu-item:not(:hover) { opacity: 0.3} */
+
+#menu-bg-pattern {
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.1) 33%,
+    transparent 33%
+  );
+  background-position: 0% 0%;
+  background-size: 12vmin 12vmin;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  transition: opacity 800ms ease, background-size 800ms ease, background-position 1500ms ease;
+}
+
+#menu-items:hover ~ #menu-bg-pattern {
+  background-size: 11vmin 11vmin;
+  opacity: 0.5;
+}
+
+#menu[data-active-index="0"] > #menu-bg-pattern {
+  background-position: 0% -33%;
+}
+
+#menu[data-active-index="1"] > #menu-bg-pattern {
+  background-position: 0% -66%;
+}
+
+#menu[data-active-index="2"] > #menu-bg-pattern {
+  background-position: 0% -100%;
+}
