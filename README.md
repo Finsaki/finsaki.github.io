@@ -1,5 +1,7 @@
-# My VERY in progress website
+# My simple website
 
-> I know this site looks horrible but it is only to test out javascript and css functionality in GitHub pages
+The purpose of this website is to act as a landing page for my online presence.
 
-An actual website coming soon...
+You can view this website from the following url:
+
+> https://koppinen.dev
