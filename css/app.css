@@ -1,6 +1,6 @@
 body {
   font-family: Montserrat, sans-serif;
-  background-color: rgb(30,30,30);
+  background-color: rgb(30, 30, 30);
   margin: 0;
 }
 
@@ -10,7 +10,7 @@ img {
 }
 
 #about-me {
-  font-size: 8em;
+  font-size: 5.5em;
   font-family: Roboto, sans-serif;
   font-weight: 600;
   margin-bottom: 0.2em;
@@ -24,14 +24,14 @@ img {
 
 @keyframes animate {
   25% {
-    color: rgba(255, 255, 255, 0.1)
+    color: rgba(255, 255, 255, 0.1);
   }
   50% {
     content: "Aki Koppinen";
     color: rgba(150, 255, 255);
   }
   75% {
-    color: rgba(255, 255, 255, 0.1)
+    color: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -45,7 +45,7 @@ img {
 
 .menu-item {
   color: white;
-  font-size: 7em;
+  font-size: 4.5em;
   display: block;
   text-decoration: none;
   transition: opacity 400ms ease;
@@ -68,56 +68,56 @@ img {
   opacity: 1;
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
   #about-me {
-      font-size: 7em;
+    font-size: 5em;
   }
   .menu-item {
-    font-size: 6em
+    font-size: 4em;
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   #about-me {
-      font-size: 6em;
+    font-size: 4.5em;
   }
   .menu-item {
-    font-size: 5em
+    font-size: 3.5em;
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
   #about-me {
-      font-size: 5em;
+    font-size: 4em;
   }
   .menu-item {
-    font-size: 4em
+    font-size: 3em;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #about-me {
-      font-size: 4em;
+    font-size: 3.5em;
   }
   .menu-item {
-    font-size: 3em
+    font-size: 2.5em;
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   #about-me {
-      font-size: 3em;
+    font-size: 3em;
   }
   .menu-item {
-    font-size: 2em
+    font-size: 2em;
   }
 }
 
-@media (max-width: 319px){
+@media (max-width: 319px) {
   #about-me {
-      font-size: 1.5em;
+    font-size: 2.5em;
   }
   .menu-item {
-    font-size: 1em
+    font-size: 1.5em;
   }
 }
