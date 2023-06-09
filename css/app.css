@@ -10,7 +10,7 @@ img {
 }
 
 #about-me {
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(3rem, 7vw, 7rem);
   font-family: Roboto, sans-serif;
   font-weight: 600;
   margin-bottom: 0.2em;
@@ -45,7 +45,7 @@ img {
 
 .menu-item {
   color: white;
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: clamp(2rem, 6vw, 6rem);
   display: block;
   text-decoration: none;
   transition: opacity 400ms ease;
@@ -75,8 +75,8 @@ img {
   .menu-item {
     font-size: 3em
   }
-
 }
+
 @media (max-width: 480px){
   #about-me {
       font-size: 3em;
